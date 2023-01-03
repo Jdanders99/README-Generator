@@ -35,7 +35,7 @@ function renderLicenseSection(license) {
 }
 
 function renderLicenseContent(license) {
-  if (licnse === 'None') {
+  if (license === 'None') {
     return '';
   } else {
     return `[License](#license)`;
