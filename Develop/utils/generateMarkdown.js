@@ -34,6 +34,14 @@ function renderLicenseSection(license) {
   }
 }
 
+function renderLicenseContent(license) {
+  if (licnse === 'None') {
+    return '';
+  } else {
+    return `[License](#license)`;
+  }
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const license = data.license;
@@ -48,7 +56,7 @@ ${renderLicenseBadge(license)}
 [Testing](#testing)
 [Constribution](#contribution)
 [Questions](#questions)
-placeholder
+${renderLicenseContent(license)}
 
 ## Description
 ${data.description}
