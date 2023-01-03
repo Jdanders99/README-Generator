@@ -10,7 +10,17 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {
+  if (license === 'MIT') {
+    return `[For more information](https://choosealicense.com/licenses/mit/)`;
+  } else if (license === 'Mozilla Public 2.0') {
+    return `[For more information](https://choosealicense.com/licenses/mpl-2.0/)`;
+  } else if (license === 'Apache 2.0') {
+    return `[For more information](https://choosealicense.com/licenses/apache-2.0/)`;
+  } else {
+    return '';
+  }
+ }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
