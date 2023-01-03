@@ -67,14 +67,14 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## Contributing
-${data.contributing}
-
 ## Tests
 ${data.tests}
 
+## Contributing
+${data.contributing}
+
 ## Questions
-${data.questions}
+${data.question}
 For any other questions, find me on Github: [${data.username}](https://github.com/${data.username})
 or email me at [${data.email}](mailto:${data.email})
 
