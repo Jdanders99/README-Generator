@@ -54,7 +54,7 @@ ${renderLicenseBadge(license)}
 [Installation](#installation)
 [Usage](#usage)
 [Testing](#tests)
-[Contributing](#contributors)
+[Contributors](#contributors)
 [Questions](#questions)
 ${renderLicenseContent(license)}
 
@@ -67,7 +67,7 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## Tests
+## Testing
 ${data.tests}
 
 ## Contributors
