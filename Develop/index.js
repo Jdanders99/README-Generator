@@ -69,7 +69,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    const fileName = 'generateREADME.md';
+    const fileName = 'README.md';
     inquirer.prompt(questions)
         .then((response) => {
             writeToFile(fileName, response);

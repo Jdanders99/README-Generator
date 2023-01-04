@@ -53,8 +53,8 @@ ${renderLicenseBadge(license)}
 [Description](#description)
 [Installation](#installation)
 [Usage](#usage)
-[Testing](#testing)
-[Constribution](#contribution)
+[Testing](#tests)
+[Contributing](#contributing)
 [Questions](#questions)
 ${renderLicenseContent(license)}
 
