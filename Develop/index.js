@@ -7,18 +7,18 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     {
         type: 'input',
-        message: 'What is the title of your app?',
+        message: 'What is the title of your program?',
         name: 'title',
     },
     {
         type: 'list',
-        message: 'What license is your app using?',
+        message: 'What license is your program using?',
         name: 'license',
         choices: ['MIT', 'Mozilla Public 2.0', 'Apache 2.0', 'None']
     },
     {
         type: 'editor',
-        message: 'Enter a brief description of your app -',
+        message: 'Enter a brief description of your program -',
         name: 'description',
     },
     {
@@ -28,18 +28,18 @@ const questions = [
     },
     {
         type: 'editor',
-        message: 'Describe how to use the app -',
+        message: 'Describe how to use the program -',
         name: 'usage',
     },
     {
         type: 'editor',
-        message: 'Describe any tests performed on the app -',
+        message: 'Describe any tests performed on the program -',
         name: 'tests',
     },
     {
         type: 'editor',
-        message: 'List any contributions to this app -',
-        name: 'contributing',
+        message: 'List any contributions to this program -',
+        name: 'contributors',
     },
     {
         type: 'editor',
